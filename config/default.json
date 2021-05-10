@@ -1,0 +1,13 @@
+{ 
+    "muysql_database":{
+        "host":"you_db_host",
+        "user":"you_db_user",
+        "password":"you_db_password",
+        "database":"you_db",
+        "port":"you_db_port"
+    },
+    "env":"/dev",
+    "version":"api/v1",
+    "port":"3001"
+}
+
