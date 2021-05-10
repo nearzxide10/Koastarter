@@ -35,14 +35,16 @@ module.exports = {
     /**
      *
      *
-     * @param {*} sucode
+     * @param {*} suCode
      * @param {*} data
-     * @returns
+     * @returns {Object} suMsg
+     *  - {Number} suCode
+     *  - {Object} info
      */
-    responseSuccess: (sucode, data) => {
+    responseSuccess: (suCode, data) => {
         /* Error message template */
         let suMsg = {   
-            statusCode: sucode,
+            statusCode: suCode,
             info: data
         };
         return suMsg;

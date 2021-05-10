@@ -9,4 +9,14 @@ router.get("/route/sample/:text", async(ctx) => {
     response.response(ctx, data);
 });
 
+router.post("/login", async(ctx) => {
+    let reqData = {
+        "body": ctx.request.body,
+        //取得request來源IP
+        "ip": ctx.request.ip.split(":")[3]
+    };
+    let data = await infoController.login(reqData);
+    response.response(ctx, data);
+});
+
 module.exports = router;

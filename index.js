@@ -7,8 +7,8 @@ const serve = require("koa-static");
 const path = require("path");
 const config = require("./config/default.json");
 const app = new Koa();
-console.log("work");
 app.use(bodyParser());
+// 後端靜態資料夾路徑，可放網頁或要給user下載檔案
 app.use(serve(path.join(__dirname, "public")));
 app.use(logger());
 app.use(cors({
