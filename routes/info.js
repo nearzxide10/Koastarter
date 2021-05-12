@@ -3,7 +3,7 @@ const infoController = require("../controller/infoController");
 const response = require("../utility/response");
 
 const router = new Router();
-router.get("/route/sample/:text", async(ctx) => {
+router.get("/sample/:text", async(ctx) => {
     let text = ctx.params.text;
     let data = await infoController.getRouteExample(text);
     response.response(ctx, data);

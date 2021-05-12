@@ -9,6 +9,7 @@
   "author": "Jack",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.1",
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
     "jsonwebtoken": "^8.5.1",

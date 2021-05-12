@@ -4,12 +4,13 @@ module.exports = {
      *  Echo request url params
      *
      * @param {String} url params
-     * @returns {String} result
+     * @returns {Object} resData
      */
     getRouteExample: async(text) => {
-        try {            
-            let result = text;
-            return result;            
+        try {
+            let resData = {};
+            resData.result = text;
+            return resData;            
         } catch (error) {
             throw error;
         }

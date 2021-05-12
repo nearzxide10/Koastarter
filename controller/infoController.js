@@ -4,7 +4,7 @@ module.exports = {
     /**
      *
      *
-     * @param {*} text url params
+     * @param {String} text url params
      * @return {Object}  response msg
      */
     getRouteExample: async(text) => {
