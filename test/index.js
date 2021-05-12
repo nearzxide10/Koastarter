@@ -7,7 +7,7 @@ const UnitTestTool =require("../utility/unitTestTool");
 
 chai.use(chaiHttp);
 before(async() => {
-    //未來應該是透過呼叫api認證取得token值
+    //透過呼叫api認證取得token值
     authToken = await UnitTestTool.unitGetoken();
     endpointUrl = `http://localhost:${config.port}${config.env}/${config.version}`;
 });
