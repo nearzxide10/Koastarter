@@ -2,7 +2,7 @@
 
 Koa Starter 
 
-    內容包含串接JWT token與mysql and postgresql使用範例，以及簡易實作login與sample route。
+    內容包含串接JWT token與mysql and postgresql套件引用，以及簡易實作login與sample route。
 ## 專案結構說明
 
 index.js 
