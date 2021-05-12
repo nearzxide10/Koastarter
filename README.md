@@ -15,7 +15,7 @@ router.js
 
 ecosystem.config.js
 
-    pm2啟動設定檔，包含啟動後的name，程式起始點，與log格式化條件
+    pm2啟動設定檔，包含啟動後的name，程式起始點，與log格式化條件。
 
 
 資料夾config
@@ -28,17 +28,17 @@ ecosystem.config.js
 
 資料夾 controller
 
-    用於判斷收取資料格式是否正確以及service處理結果，回應各route回傳status code及回傳資料，命名規則為該routeName_Controller。
+    用於判斷收取資料格式是否正確以及service處理結果，回應各route回傳status code及回傳資料
+    ，命名規則為該routeName_Controller。
 
 資料夾service
 
-    各route商務邏輯實作，存取DB及格式化資料操作等，命名規則為該routeName_Service。。
+    各route商務邏輯實作，存取DB及格式化資料操作等，命名規則為該routeName_Service。
 
 
 資料夾utility
 
     專案所需Tool實作內容。
-
 
 資料夾test
 
